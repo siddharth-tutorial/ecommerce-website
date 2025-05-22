@@ -169,9 +169,7 @@ function Home() {
             <div key={category} className="mb-5">
               <div className="d-flex justify-content-between align-items-center mb-3">
                 <h3 className="text-capitalize fw-bold">{category}</h3>
-                <Link to={`/category/${encodeURIComponent(category)}`}>
-                  <Button variant="outline-primary">View All</Button>
-                </Link>
+                 <Button variant="outline-primary">View All</Button>
               </div>
               <Row>
                 {filteredProducts.slice(0, 4).map((product) => (
