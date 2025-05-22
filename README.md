@@ -1,3 +1,9 @@
+# E-Commerce-Website (Amazon Clone)
+
+<h2>Live Project</h2>
+
+This project was React Bootstrap, hooks, Context Api and (fakestore Api) [Varcel]().    
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
