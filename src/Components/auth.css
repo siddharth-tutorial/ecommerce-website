@@ -1,0 +1,62 @@
+/* Add to your index.css or App.css */
+.nav-pills-modern .nav-link.active {
+  background-color: #f0c14b !important;
+  color: #111 !important;
+  font-weight: 600;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+.nav-pills-modern .nav-link {
+  transition: all 0.2s ease;
+}
+.skeleton-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.skeleton-nav,
+.skeleton-input,
+.skeleton-button,
+.skeleton-footer {
+  background: #ddd;
+  background: linear-gradient(
+    90deg,
+    #ddd 25%,
+    #e7e7e7 37%,
+    #ddd 63%
+  );
+  background-size: 400% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: 10px;
+}
+
+.skeleton-nav {
+  height: 40px;
+  width: 100%;
+}
+
+.skeleton-input {
+  height: 40px;
+  width: 100%;
+}
+
+.skeleton-button {
+  height: 45px;
+  width: 100%;
+}
+
+.skeleton-footer {
+  height: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
