@@ -2,7 +2,7 @@
 
 <h2>Live Project</h2>
 
-This project was React Bootstrap, hooks, Context Api and (fakestore Api) [Varcel]().    
+This project was React Bootstrap, hooks, Context Api and (fakestore Api) [Varcel](https://ecommerce-website-xi-gilt.vercel.app/).    
 
 # Getting Started with Create React App
 
