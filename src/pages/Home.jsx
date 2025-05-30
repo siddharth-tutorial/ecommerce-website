@@ -195,7 +195,9 @@ function Home() {
                           objectFit: "contain",
                           padding: "15px",
                           backgroundColor: "#f8f9fa",
+                          
                         }}
+                        
                       />
                       <Card.Body className="d-flex flex-column px-3">
                         <Card.Title
@@ -204,6 +206,7 @@ function Home() {
                             fontSize: "1rem",
                             height: "2.6em",
                             overflow: "hidden",
+                            
                           }}
                         >
                           {product.title}

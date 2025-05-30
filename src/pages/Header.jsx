@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   Badge,
@@ -66,10 +67,7 @@ function Header({ handleCartToggle }) {
               transition: "transform 0.3s ease",
               cursor: "pointer",
             }}
-            onMouseOver={(e) =>
-              (e.currentTarget.style.transform = "scale(1.05)")
-            }
-            onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
+          
           />
         </Navbar.Brand>
 
