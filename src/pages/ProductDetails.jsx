@@ -8,7 +8,6 @@ import {
   Badge,
   ProgressBar,
   Toast,
-  
 } from "react-bootstrap";
 import { useParams, useNavigate } from "react-router-dom";
 import { useCart } from "../Components/ProductContext";
@@ -30,6 +29,7 @@ const ProductDetails = () => {
     const fetchProduct = async () => {
       try {
         setLoading(true);
+        window.scrollTo(0, 0); // Scroll to top when product changes
         const res = await fetch(`https://fakestoreapi.com/products/${id}`);
         const data = await res.json();
         setProduct(data);
@@ -114,9 +114,7 @@ const ProductDetails = () => {
                 </Badge>
                 <p>{product.description}</p>
                 <div className="d-flex flex-wrap gap-2 mt-3">
-                  <Button variant="outline-primary" onClick={() => navigate(-1)}>
-                    ← Back
-                  </Button>
+                
                   <Button variant="success" onClick={handleAddToCart}>
                     Add to Cart
                   </Button>
